@@ -1,0 +1,131 @@
+.h1 {
+    color: slateblue;
+}
+
+.component_container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 2500px;
+
+
+}
+
+.img_property {
+    width: 250px;
+    height: 400px;
+    padding: 25px;
+}
+
+.p1_s1 {
+    font: bolder;
+    font-weight: bolder;
+    color: blue;
+}
+
+.p1_s2 {
+    font: bolder;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.p1_s3 {
+    font: bolder;
+    font-weight: bolder;
+    color: green;
+    /* padding-bottom: 300px; */
+}
+
+.h2_special {
+    font-style: italic;
+    color: goldenrod;
+    padding: 5px;
+}
+
+
+
+
+.special_1 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.btn_details {
+    width: 100%;
+    /* text-decoration: none; */
+    background: linear-gradient(blue, navy);
+    /* padding: 10px 40px; */
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    bottom: 0;
+    border: none;
+    /* margin-top: 40px;
+    margin-bottom: 0px; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#p4 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0;
+}
+
+#bl {
+    margin-top: 1900px;
+}
+
+#y1 {
+    color: black;
+}
+
+
+@media only screen and (max-width:688px) {
+    .component_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        margin-right: 25px;
+
+
+
+    }
+
+    #k1 {
+        width: 70%;
+        padding-left: 5px;
+        padding-right: 10px;
+        font-size: large;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .btn_details {
+        width: 92%;
+        /* text-decoration: none; */
+        background: linear-gradient(blue, navy);
+        /* padding: 10px 40px; */
+        border-radius: 4px;
+        color: white;
+        font-weight: 700;
+        /* position: relative; */
+        bottom: 0;
+        border: none;
+        margin-left: 10px;
+        /* margin-top: 40px;
+        margin-bottom: 0px; */
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #p4 {
+        margin-top: 10px;
+    }
+}
