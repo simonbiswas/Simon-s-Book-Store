@@ -1,2 +1,2 @@
 # Simon-s-Book-Store
-This is the live server of my project "Simon's Book Store": https://poetic-duckanoo-190561.netlify.app/
+In this project , I used react. Besides, I didn't use any CSS framework(Boostrap, Tailwind.css) here. I made it by using vanilla CSS,JavaScript, HTML. I also made this project responsive for mobile. You can see I tried to make a online book store for selling books here. You can add books to cart and see the total bill in order summary.This is the live server of my project "Simon's Book Store": https://poetic-duckanoo-190561.netlify.app/
